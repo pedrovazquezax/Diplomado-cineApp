@@ -87,7 +87,7 @@ class BuyTicketsViewController: UIViewController {
     func sendAlertTickets(){
            let alert = UIAlertController(title: "Error", message: "Lo sentimos, no hay suficientes boletos en la sala", preferredStyle: .alert)
            let action = UIAlertAction(title: "Ok", style: .default) { (_) in
-               self.dismiss(animated: true, completion: nil)
+            self.navigationController?.popViewController(animated: true)
            }
            alert.addAction(action)
            present(alert, animated: true)
