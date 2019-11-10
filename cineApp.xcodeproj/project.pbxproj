@@ -1,0 +1,479 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AD90531723402DE7000FADB5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD90531623402DE7000FADB5 /* AppDelegate.swift */; };
+		AD90531923402DE7000FADB5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD90531823402DE7000FADB5 /* SceneDelegate.swift */; };
+		AD90531B23402DE7000FADB5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD90531A23402DE7000FADB5 /* ViewController.swift */; };
+		AD90531E23402DE7000FADB5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD90531C23402DE7000FADB5 /* Main.storyboard */; };
+		AD90532023402DE9000FADB5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD90531F23402DE9000FADB5 /* Assets.xcassets */; };
+		AD90532323402DE9000FADB5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD90532123402DE9000FADB5 /* LaunchScreen.storyboard */; };
+		AD90532D23402F82000FADB5 /* BillboardCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD90532B23402F82000FADB5 /* BillboardCollectionViewController.swift */; };
+		AD90532E23402F82000FADB5 /* BillboardCollectionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AD90532C23402F82000FADB5 /* BillboardCollectionViewController.xib */; };
+		AD90533323403B63000FADB5 /* MovieCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD90533123403B63000FADB5 /* MovieCollectionViewCell.swift */; };
+		AD90533423403B63000FADB5 /* MovieCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AD90533223403B63000FADB5 /* MovieCollectionViewCell.xib */; };
+		AD90533723403C1E000FADB5 /* FastConstraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD90533623403C1E000FADB5 /* FastConstraints.swift */; };
+		AD90533A234041FD000FADB5 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD905338234041FD000FADB5 /* TabBarViewController.swift */; };
+		AD90533B234041FD000FADB5 /* TabBarViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AD905339234041FD000FADB5 /* TabBarViewController.xib */; };
+		ADD40A1A2376418F00C724BE /* ShopTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADD40A182376418F00C724BE /* ShopTableViewController.swift */; };
+		ADD40A1B2376418F00C724BE /* ShopTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ADD40A192376418F00C724BE /* ShopTableViewController.xib */; };
+		ADD40A20237649AE00C724BE /* ItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADD40A1E237649AE00C724BE /* ItemTableViewCell.swift */; };
+		ADD40A21237649AE00C724BE /* ItemTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = ADD40A1F237649AE00C724BE /* ItemTableViewCell.xib */; };
+		ADD40A2823765BB600C724BE /* MoviePreviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADD40A2623765BB600C724BE /* MoviePreviewViewController.swift */; };
+		ADD40A2923765BB600C724BE /* MoviePreviewViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ADD40A2723765BB600C724BE /* MoviePreviewViewController.xib */; };
+		ADD40A2C2376816100C724BE /* scheduleCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADD40A2A2376816100C724BE /* scheduleCollectionViewCell.swift */; };
+		ADD40A2D2376816100C724BE /* scheduleCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = ADD40A2B2376816100C724BE /* scheduleCollectionViewCell.xib */; };
+		ADD40A302376854300C724BE /* BuyTicketsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADD40A2E2376854300C724BE /* BuyTicketsViewController.swift */; };
+		ADD40A312376854300C724BE /* BuyTicketsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ADD40A2F2376854300C724BE /* BuyTicketsViewController.xib */; };
+		ADD4D4772377C78F00669016 /* CartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADD4D4752377C78F00669016 /* CartViewController.swift */; };
+		ADD4D4782377C78F00669016 /* CartViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ADD4D4762377C78F00669016 /* CartViewController.xib */; };
+		ADD4D47B2377E61100669016 /* moviesTicketTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADD4D4792377E61100669016 /* moviesTicketTableViewCell.swift */; };
+		ADD4D47C2377E61100669016 /* moviesTicketTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = ADD4D47A2377E61100669016 /* moviesTicketTableViewCell.xib */; };
+		ADD4D47F2377E63100669016 /* CandiesTicketTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADD4D47D2377E63100669016 /* CandiesTicketTableViewCell.swift */; };
+		ADD4D4802377E63100669016 /* CandiesTicketTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = ADD4D47E2377E63100669016 /* CandiesTicketTableViewCell.xib */; };
+		ADF4B327237738DA00AFF090 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF4B326237738DA00AFF090 /* Models.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AD90531323402DE7000FADB5 /* cineApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cineApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD90531623402DE7000FADB5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AD90531823402DE7000FADB5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		AD90531A23402DE7000FADB5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AD90531D23402DE7000FADB5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AD90531F23402DE9000FADB5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AD90532223402DE9000FADB5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AD90532423402DE9000FADB5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD90532B23402F82000FADB5 /* BillboardCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BillboardCollectionViewController.swift; sourceTree = "<group>"; };
+		AD90532C23402F82000FADB5 /* BillboardCollectionViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BillboardCollectionViewController.xib; sourceTree = "<group>"; };
+		AD90533123403B63000FADB5 /* MovieCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCollectionViewCell.swift; sourceTree = "<group>"; };
+		AD90533223403B63000FADB5 /* MovieCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MovieCollectionViewCell.xib; sourceTree = "<group>"; };
+		AD90533623403C1E000FADB5 /* FastConstraints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FastConstraints.swift; sourceTree = "<group>"; };
+		AD905338234041FD000FADB5 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		AD905339234041FD000FADB5 /* TabBarViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TabBarViewController.xib; sourceTree = "<group>"; };
+		ADD40A182376418F00C724BE /* ShopTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopTableViewController.swift; sourceTree = "<group>"; };
+		ADD40A192376418F00C724BE /* ShopTableViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ShopTableViewController.xib; sourceTree = "<group>"; };
+		ADD40A1E237649AE00C724BE /* ItemTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemTableViewCell.swift; sourceTree = "<group>"; };
+		ADD40A1F237649AE00C724BE /* ItemTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ItemTableViewCell.xib; sourceTree = "<group>"; };
+		ADD40A2623765BB600C724BE /* MoviePreviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviePreviewViewController.swift; sourceTree = "<group>"; };
+		ADD40A2723765BB600C724BE /* MoviePreviewViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MoviePreviewViewController.xib; sourceTree = "<group>"; };
+		ADD40A2A2376816100C724BE /* scheduleCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = scheduleCollectionViewCell.swift; sourceTree = "<group>"; };
+		ADD40A2B2376816100C724BE /* scheduleCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = scheduleCollectionViewCell.xib; sourceTree = "<group>"; };
+		ADD40A2E2376854300C724BE /* BuyTicketsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuyTicketsViewController.swift; sourceTree = "<group>"; };
+		ADD40A2F2376854300C724BE /* BuyTicketsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BuyTicketsViewController.xib; sourceTree = "<group>"; };
+		ADD4D4752377C78F00669016 /* CartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartViewController.swift; sourceTree = "<group>"; };
+		ADD4D4762377C78F00669016 /* CartViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CartViewController.xib; sourceTree = "<group>"; };
+		ADD4D4792377E61100669016 /* moviesTicketTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = moviesTicketTableViewCell.swift; sourceTree = "<group>"; };
+		ADD4D47A2377E61100669016 /* moviesTicketTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = moviesTicketTableViewCell.xib; sourceTree = "<group>"; };
+		ADD4D47D2377E63100669016 /* CandiesTicketTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CandiesTicketTableViewCell.swift; sourceTree = "<group>"; };
+		ADD4D47E2377E63100669016 /* CandiesTicketTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CandiesTicketTableViewCell.xib; sourceTree = "<group>"; };
+		ADF4B326237738DA00AFF090 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AD90531023402DE7000FADB5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AD90530A23402DE6000FADB5 = {
+			isa = PBXGroup;
+			children = (
+				AD90531523402DE7000FADB5 /* cineApp */,
+				AD90531423402DE7000FADB5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AD90531423402DE7000FADB5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AD90531323402DE7000FADB5 /* cineApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AD90531523402DE7000FADB5 /* cineApp */ = {
+			isa = PBXGroup;
+			children = (
+				ADF4B328237738E100AFF090 /* Models */,
+				AD90533523403BF9000FADB5 /* Extensions */,
+				AD90533023403B43000FADB5 /* Views */,
+				AD90532F23403B38000FADB5 /* Controllers */,
+				AD90532A23402F50000FADB5 /* tests */,
+				AD90531623402DE7000FADB5 /* AppDelegate.swift */,
+				AD90531823402DE7000FADB5 /* SceneDelegate.swift */,
+				AD90531A23402DE7000FADB5 /* ViewController.swift */,
+				AD90531C23402DE7000FADB5 /* Main.storyboard */,
+				AD90531F23402DE9000FADB5 /* Assets.xcassets */,
+				AD90532123402DE9000FADB5 /* LaunchScreen.storyboard */,
+				AD90532423402DE9000FADB5 /* Info.plist */,
+			);
+			path = cineApp;
+			sourceTree = "<group>";
+		};
+		AD90532A23402F50000FADB5 /* tests */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = tests;
+			sourceTree = "<group>";
+		};
+		AD90532F23403B38000FADB5 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				AD90532B23402F82000FADB5 /* BillboardCollectionViewController.swift */,
+				AD90532C23402F82000FADB5 /* BillboardCollectionViewController.xib */,
+				AD905338234041FD000FADB5 /* TabBarViewController.swift */,
+				AD905339234041FD000FADB5 /* TabBarViewController.xib */,
+				ADD40A182376418F00C724BE /* ShopTableViewController.swift */,
+				ADD40A192376418F00C724BE /* ShopTableViewController.xib */,
+				ADD40A2623765BB600C724BE /* MoviePreviewViewController.swift */,
+				ADD40A2723765BB600C724BE /* MoviePreviewViewController.xib */,
+				ADD40A2E2376854300C724BE /* BuyTicketsViewController.swift */,
+				ADD40A2F2376854300C724BE /* BuyTicketsViewController.xib */,
+				ADD4D4752377C78F00669016 /* CartViewController.swift */,
+				ADD4D4762377C78F00669016 /* CartViewController.xib */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		AD90533023403B43000FADB5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AD90533123403B63000FADB5 /* MovieCollectionViewCell.swift */,
+				AD90533223403B63000FADB5 /* MovieCollectionViewCell.xib */,
+				ADD40A1E237649AE00C724BE /* ItemTableViewCell.swift */,
+				ADD40A1F237649AE00C724BE /* ItemTableViewCell.xib */,
+				ADD40A2A2376816100C724BE /* scheduleCollectionViewCell.swift */,
+				ADD40A2B2376816100C724BE /* scheduleCollectionViewCell.xib */,
+				ADD4D4792377E61100669016 /* moviesTicketTableViewCell.swift */,
+				ADD4D47A2377E61100669016 /* moviesTicketTableViewCell.xib */,
+				ADD4D47D2377E63100669016 /* CandiesTicketTableViewCell.swift */,
+				ADD4D47E2377E63100669016 /* CandiesTicketTableViewCell.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		AD90533523403BF9000FADB5 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				AD90533623403C1E000FADB5 /* FastConstraints.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		ADF4B328237738E100AFF090 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				ADF4B326237738DA00AFF090 /* Models.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AD90531223402DE7000FADB5 /* cineApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD90532723402DE9000FADB5 /* Build configuration list for PBXNativeTarget "cineApp" */;
+			buildPhases = (
+				AD90530F23402DE7000FADB5 /* Sources */,
+				AD90531023402DE7000FADB5 /* Frameworks */,
+				AD90531123402DE7000FADB5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = cineApp;
+			productName = cineApp;
+			productReference = AD90531323402DE7000FADB5 /* cineApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AD90530B23402DE6000FADB5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = "Pedro Antonio Vazquez Rodriguez";
+				TargetAttributes = {
+					AD90531223402DE7000FADB5 = {
+						CreatedOnToolsVersion = 11.0;
+					};
+				};
+			};
+			buildConfigurationList = AD90530E23402DE6000FADB5 /* Build configuration list for PBXProject "cineApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AD90530A23402DE6000FADB5;
+			productRefGroup = AD90531423402DE7000FADB5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AD90531223402DE7000FADB5 /* cineApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AD90531123402DE7000FADB5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADD40A21237649AE00C724BE /* ItemTableViewCell.xib in Resources */,
+				ADD4D4802377E63100669016 /* CandiesTicketTableViewCell.xib in Resources */,
+				AD90533423403B63000FADB5 /* MovieCollectionViewCell.xib in Resources */,
+				AD90532E23402F82000FADB5 /* BillboardCollectionViewController.xib in Resources */,
+				AD90532323402DE9000FADB5 /* LaunchScreen.storyboard in Resources */,
+				ADD4D4782377C78F00669016 /* CartViewController.xib in Resources */,
+				ADD40A2923765BB600C724BE /* MoviePreviewViewController.xib in Resources */,
+				AD90532023402DE9000FADB5 /* Assets.xcassets in Resources */,
+				AD90533B234041FD000FADB5 /* TabBarViewController.xib in Resources */,
+				ADD4D47C2377E61100669016 /* moviesTicketTableViewCell.xib in Resources */,
+				ADD40A312376854300C724BE /* BuyTicketsViewController.xib in Resources */,
+				ADD40A2D2376816100C724BE /* scheduleCollectionViewCell.xib in Resources */,
+				AD90531E23402DE7000FADB5 /* Main.storyboard in Resources */,
+				ADD40A1B2376418F00C724BE /* ShopTableViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AD90530F23402DE7000FADB5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD90532D23402F82000FADB5 /* BillboardCollectionViewController.swift in Sources */,
+				ADD4D47B2377E61100669016 /* moviesTicketTableViewCell.swift in Sources */,
+				ADD4D47F2377E63100669016 /* CandiesTicketTableViewCell.swift in Sources */,
+				ADF4B327237738DA00AFF090 /* Models.swift in Sources */,
+				ADD4D4772377C78F00669016 /* CartViewController.swift in Sources */,
+				ADD40A20237649AE00C724BE /* ItemTableViewCell.swift in Sources */,
+				ADD40A1A2376418F00C724BE /* ShopTableViewController.swift in Sources */,
+				ADD40A2C2376816100C724BE /* scheduleCollectionViewCell.swift in Sources */,
+				AD90531B23402DE7000FADB5 /* ViewController.swift in Sources */,
+				ADD40A2823765BB600C724BE /* MoviePreviewViewController.swift in Sources */,
+				AD90533723403C1E000FADB5 /* FastConstraints.swift in Sources */,
+				ADD40A302376854300C724BE /* BuyTicketsViewController.swift in Sources */,
+				AD90533323403B63000FADB5 /* MovieCollectionViewCell.swift in Sources */,
+				AD90533A234041FD000FADB5 /* TabBarViewController.swift in Sources */,
+				AD90531723402DE7000FADB5 /* AppDelegate.swift in Sources */,
+				AD90531923402DE7000FADB5 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AD90531C23402DE7000FADB5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AD90531D23402DE7000FADB5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AD90532123402DE9000FADB5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AD90532223402DE9000FADB5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AD90532523402DE9000FADB5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AD90532623402DE9000FADB5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AD90532823402DE9000FADB5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4YDAEX93RK;
+				INFOPLIST_FILE = cineApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mx.pedrovazquezax.cineApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		AD90532923402DE9000FADB5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4YDAEX93RK;
+				INFOPLIST_FILE = cineApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mx.pedrovazquezax.cineApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AD90530E23402DE6000FADB5 /* Build configuration list for PBXProject "cineApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD90532523402DE9000FADB5 /* Debug */,
+				AD90532623402DE9000FADB5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD90532723402DE9000FADB5 /* Build configuration list for PBXNativeTarget "cineApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD90532823402DE9000FADB5 /* Debug */,
+				AD90532923402DE9000FADB5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AD90530B23402DE6000FADB5 /* Project object */;
+}
